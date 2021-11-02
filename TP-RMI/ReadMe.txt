@@ -1,7 +1,3 @@
-# TP-RMI
-Mon rendu pour le TP-RMI en Architectures Distribués
-
-
 Travail de : Sanchez Martin
 
 Comment executer ?
