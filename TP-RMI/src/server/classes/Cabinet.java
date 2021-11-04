@@ -36,5 +36,9 @@ public class Cabinet extends UnicastRemoteObject implements ICabinet{
 		IAnimal a = new Animal(n, m, e, r);
 		liste.add(a);
 		instance.notifyAllClients("Un Animal à été ajouté");
+
+		if (liste.size() == 100) {
+			instance.notifyAllClients("Bienvenu a notre 100e client !");
+		}
 	}
 }
